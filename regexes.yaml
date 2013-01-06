@@ -50,6 +50,10 @@ user_agent_parsers:
 
   - regex: '(Netscape6)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Netscape'
+  - regex: '(Netscape6)/(\d+)\.(\d+b1)'
+    family_replacement: 'Netscape'
+  - regex: '(Netscape6)/(\d+)\.(\d+)'
+    family_replacement: 'Netscape'
 
   - regex: '(MyIBrow)/(\d+)\.(\d+)'
     family_replacement: 'My Internet Browser'
