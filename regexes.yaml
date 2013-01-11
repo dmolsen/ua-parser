@@ -278,7 +278,7 @@ user_agent_parsers:
   - regex: '(Series60)/(\d+)\.(\d+)'
     family_replacement: 'Nokia OSS Browser'
   - regex: '(S40OviBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'Nokia Series 40 Ovi Browser'
+    family_replacement: 'Ovi Browser'
   - regex: '(Nokia)[EN]?(\d+)'
 
   # BlackBerry devices
@@ -489,6 +489,8 @@ os_parsers:
   - regex: '(MeeGo)'
   - regex: 'Symbian [Oo][Ss]'
     os_replacement: 'Symbian OS'
+  - regex: '(Series40);'
+    os_replacement: 'Nokia Series 40'
 
   ##########
   # BlackBerry devices
@@ -701,6 +703,14 @@ device_parsers:
     device_replacement: 'Acer $1'
 
   ##########
+  # Alcatel
+  ##########
+  - regex: 'ALCATEL-([A-Za-z0-9]+)'
+    device_replacement: 'Alcatel $1'
+  - regex: 'Alcatel-([A-Za-z0-9]+)'
+    device_replacement: 'Alcatel $1'
+      
+  ##########
   # Amoi
   ##########
   - regex: 'Amoi\-([A-Za-z0-9]+)'
@@ -743,8 +753,12 @@ device_parsers:
     device_replacement: 'DoCoMo $1'
 
   ##########
-  # Huawei Vodafone
+  # Huawei
   ##########
+  - regex: 'Huawei([A-Za-z0-9]+)'
+    device_replacement: 'Huawei $1'
+  - regex: 'HUAWEI-([A-Za-z0-9]+)'
+    device_replacement: 'Huawei $1'
   - regex: 'vodafone([A-Za-z0-9]+)'
     device_replacement: 'Huawei Vodafone $1'
 

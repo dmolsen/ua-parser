@@ -1,0 +1,11 @@
+name: "Alcatel Device Test"
+author: "Dave Olsen"
+username: dmolsen
+description: "Adds support for recognizing Alcatel devices to regexes.yaml"
+supporting_links:
+    - none
+history:
+    - note: "Initial commit"
+      author: "Dave Olsen"
+      username: dmolsen
+      date: "january 9 2013"

@@ -1,0 +1,7 @@
+test_cases:
+    
+  - user_agent_string: 'ALCATEL-OT510A/382 ObigoInternetBrowser/Q05A'
+    family: 'Alcatel OT510A'
+
+  - user_agent_string: 'Alcatel-OH5/1.0 UP.Browser/6.1.0.7.7 (GUI) MMP/1.0'
+    family: 'Alcatel OH5'

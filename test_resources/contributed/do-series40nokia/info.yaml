@@ -1,0 +1,11 @@
+name: "Nokia Series 40 Test"
+author: "Dave Olsen"
+username: dmolsen
+description: "Renames the Ovi Browser and Adds Series 40 to the OS list"
+supporting_links:
+    - none
+history:
+    - note: "Initial commit"
+      author: "Dave Olsen"
+      username: dmolsen
+      date: "january 9 2013"
